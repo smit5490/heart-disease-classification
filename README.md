@@ -17,6 +17,14 @@ some links to get started:
 * Python 3.8.1 and [pip/venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) **OR**
 * Other python package/environment manager
 
+## Step 0: Download the Git Repository
+Clone the repository locally using the command line:  
+
+>`git clone https://github.com/smit5490/heart-disease-classification.git`
+
 ## Step 1: Configure your Data Science Environment
-This project uses Python 3.8.1. Once
-`pip install -r requirements.txt`
+Next, cd into the repository and create a virtual environment called `venv`.
+Once your virtual environment is created, use `pip` to install the package
+requirements:  
+
+>`pip install -r requirements.txt`
