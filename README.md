@@ -1,6 +1,6 @@
 # Heart Disease Classification on the Google Cloud
 
-
+![heart-disease](images/heart-disease.png)
 
 ## Purpose:
 This repo contains a basic recipe to deploy a simple scikit-learn pipeline using
@@ -11,7 +11,6 @@ This repo uses the basic tools of the trade including version control, python
 virtual environments, and the Google Cloud software development kit. Here are
 some links to get started:  
 
-* [Google Cloud SDK](https://cloud.google.com/sdk)
 * [Git](https://git-scm.com)
 * Python 3.7
 * [Anaconda](https://www.anaconda.com) **OR**
@@ -48,4 +47,15 @@ Process for Data Mining (CRISP-DM).
 ![CRISP-DM](images/crisp-dm.png)
 
 This is a standard framework used by data
-scientists across many industries.
+scientists across many industries to guide the development and deployment of
+machine learning models.
+
+In the final notebook, a scikit-learn pipeline and model will be pickled. This
+is what we will deploy to the Google Cloud to make heart disease predictions.
+
+## Step 3: Install Google Cloud SDK
+Now we are ready to move things to the cloud! In order to interact with the
+Google Cloud, a cloud account is needed.
+
+
+[Google Cloud SDK](https://cloud.google.com/sdk)
