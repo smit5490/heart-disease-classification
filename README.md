@@ -55,8 +55,11 @@ Now we are ready to do some initial set-up in the cloud. In order to interact wi
   * Click *Create*. A JSON file that contains your key downloads to your computer. You'll need this file/file path for the last notebook when the model is deployed to the AI Platform.
 
 ## Step 3: Explore/Run the Provided Notebooks
-A series of notebooks have been provided that follow the CRoss-Industry Standard Process for Data Mining (CRISP-DM).
-<div style="text-align:center"><img src="images/crisp-dm.png" /></div>
+A series of notebooks have been provided that follow the CRoss-Industry Standard Process for Data Mining (CRISP-DM).  
+
+<p align="center">
+  <img src="images/crisp-dm.png">
+</p>
 
 This is a standard framework used by data scientists across many industries to guide the development and deployment of machine learning models. In the deployment phase, we'll create a custom prediction routine that can be deployed to the Google Cloud. There are five Jupyter notebooks in the code folder that serve perform the following functions:  
 
